@@ -20,7 +20,7 @@ myls command takes one optional parameter; if this parameter is provided,
 If no parameter is provided myls lists the current directory.
 
 
-4. Sudoku solver (sudoku directory). Solves upto 1 million sudoku puzzles per second using threads and CUDA. 
+4. Sudoku solver (Sudoku_parallel directory). Solves upto 1 million sudoku puzzles per second using threads and CUDA. 
 To compile:
 nvcc sudoku.cu -o sudoku
 * must have a nvidia GPU on the machine. Might need to modify bashrc file to add path to gpu if not there already *
